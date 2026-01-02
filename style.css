@@ -1,0 +1,76 @@
+
+a:link, a:visited{
+    color:white;
+}
+body{
+    background-image: url("images/deepinweb.jpg");
+    background-repeat:no-repeat;
+    background-color: black;
+    background-size: auto;
+    background-position-y:calc(-10vh);
+    /*background-position-y:calc(1920px-(50vh - 125px));*/
+
+   /* background-position-y: -150px; */
+ 
+    
+
+}
+footer {
+background-color: rgb(191, 191, 191);
+
+
+}
+.buttons{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:calc(50vh - 125px);
+}
+button{
+    
+    margin-left:5px;
+    align-content:center;
+    font-size: 25px;
+    background-color:black;
+    text-align:center;
+    border:0;   
+}
+button:hover{
+    margin-left:5px;
+    align-content:center;
+    font-size: 25px;
+    background-color:black;
+    text-align:center;
+    background: rgb(0,0,0);
+    
+}
+.demobutton{
+    width:250px;
+    height:250px;
+    background-image: url("deepin-web-buttons/cd.jpg");
+  
+}
+.demobutton:hover{
+    background-image: url("deepin-web-buttons/cdover.jpg")
+}
+.linktreebutton{
+    width:250px;
+    height:250px;
+    background-image: url("deepin-web-buttons/linktree.jpg");
+  
+}
+.linktreebutton:hover{
+    background-image: url("deepin-web-buttons/linktreeover.jpg")
+}
+.setsbutton{
+    width:250px;
+    height:250px;
+    background-image: url("deepin-web-buttons/sets.jpg");
+  
+}
+.setsbutton:hover{
+    background-image: url("deepin-web-buttons/setsover.jpg")
+}
+.badges{
+    margin-top: 2px;
+}
